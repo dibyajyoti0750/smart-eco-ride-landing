@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Smart Eco Ride",
     description: "Latibpur, Uluberia, Howrah - 711316",
-    siteName: "smartecoride.in",
+    siteName: "Smart Eco Ride",
     url: "https://www.smartecoride.in/",
     images: [
       {
@@ -32,6 +32,13 @@ export const metadata: Metadata = {
     ],
     locale: "en_IN",
     type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Smart Eco Ride",
+    description: "Latibpur, Uluberia, Howrah - 711316",
+    images: ["/og-image.png"],
   },
 };
 
