@@ -8,13 +8,20 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.smartecoride.in"),
+
   title: "Smart Eco Ride",
   description: "Latibpur, Uluberia, Howrah - 711316",
+
+  alternates: {
+    canonical: "https://www.smartecoride.in/",
+  },
 
   openGraph: {
     title: "Smart Eco Ride",
     description: "Latibpur, Uluberia, Howrah - 711316",
     siteName: "smartecoride.in",
+    url: "https://www.smartecoride.in/",
     images: [
       {
         url: "/og-image.png",
